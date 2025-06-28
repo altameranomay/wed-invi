@@ -1,65 +1,11 @@
-body {
-  background-color: #403F2B;
-}
-a {
-  font-family: Avenir Light;
-  color: #F3F1C4;
-  font-size: 16px;
-}
-p {
-  font-family: 'Avenir Light';
-  font-weight: lighter;
-  font-size: 20px;
-}
-h1,h2 {
-  font-family: 'Fraunces';
-  font-size: 70px;
-  font-weight: light;
-}
-.main-img {
-  width: 125vh;
-  height: 70vh;
-  object-fit: cover;
-  margin-top: 30px;
-}
-.App {
-  text-align: center;
-}
+@import './styles/global.scss';
+@import './styles/styles.scss';
+@import './styles/mobile.scss';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  /* background-color: rgb(18 30 16); */
-  /* background-color: #2B3E34; */
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: #F3F1C4;
-}
-.mid-nav {
-  justify-content: center;
-}
-.navbar.sticky-top {
-  background-color: #403F2B;
-}
-.header-con {
-  margin-top: 70px;
-}
-.main-body {
-  min-height: 100vh;
-  padding: 100px;
-}
-
-.App-link {
-  color: #DADED8;
+.contain1 p {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
@@ -71,9 +17,3 @@ h1,h2 {
   }
 }
 
-@font-face {
-  font-family: 'Avenir Light';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Avenir Light'), url('//font/Avenir Light.ttf') format('ttf');
-}
